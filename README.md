@@ -15,8 +15,8 @@ Before proceeding, ensure you have the following installed on your system:
 ### 2. Clone the Repository
 Clone the project from GitHub and navigate to the project directory:
 ```sh
-git clone https://github.com/di1ara/101376617-lab-test2-comp3133.git
-cd 101376617-lab-test2-comp3133
+git clone https://github.com/di1ara/101376617_labtest2_comp3133.git
+cd 101376617_labtest2_comp3133
 ```
 
 ### 3. Install Dependencies
