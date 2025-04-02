@@ -1,0 +1,102 @@
+
+.filter-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 10px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    background-color: #ffffff;
+  }
+  
+  .filter-container mat-form-field {
+    flex: 1;
+    min-width: 180px;
+  }
+
+  .filter-container .mat-select-value-text,
+  .filter-container .mat-select-value {
+    color: #ffffff !important; 
+    font-weight: 500;
+    font-size: 16px;
+    opacity: 1 !important; 
+  }
+  
+
+  .filter-container .mat-select-arrow {
+    color: #ffffff !important;
+    opacity: 1;
+    border-top-color: #ffffff !important; 
+  }
+
+  .filter-container .mat-form-field-label,
+  .filter-container mat-label {
+    color: #002347 !important;
+    font-weight: 700;
+    font-size: 15px;
+    opacity: 0.9;
+  }
+
+  .filter-container .mat-form-field-outline {
+    color: #000 !important; 
+    opacity: 1;
+  }
+  
+  .filter-container .mat-form-field-outline-thick {
+    color: #90caf9 !important; 
+    opacity: 1;
+  }
+
+  .mat-select-panel {
+    background: #333333 !important;
+    border: 1px solid #90a4ae !important; 
+    border-radius: 8px !important;
+    margin-top: 8px;
+  }
+
+  .mat-option-text {
+    color: #ffffff !important;
+    font-weight: 500;
+    font-size: 16px;
+  }
+  
+  .mat-option {
+    color: #ffffff !important;
+    padding: 12px 16px !important;
+  }
+
+  .mat-option:hover:not(.mat-option-disabled),
+  .mat-option:focus:not(.mat-option-disabled) {
+    background: #455a64 !important;
+  }
+
+  .mat-option.mat-selected:not(.mat-option-disabled) {
+    background: #1e88e5 !important;
+    color: white !important;
+  }
+
+  .filter-container .mat-form-field.mat-focused .mat-form-field-label {
+    color: #90caf9 !important;
+  }
+  
+  .filter-container .mat-form-field.mat-focused .mat-select-arrow {
+    color: #90caf9 !important;
+  }
+
+  @media (max-width: 768px) {
+    .filter-container {
+      flex-direction: column;
+      gap: 16px;
+      padding: 16px;
+    }
+    
+    .filter-container mat-form-field {
+      min-width: 100%;
+    }
+  }
+
+  .mat-form-field-appearance-outline .mat-form-field-infix {
+    background-color: rgba(255, 255, 255, 0.05);
+    border-radius: 4px;
+    padding: 12px 0;
+  }

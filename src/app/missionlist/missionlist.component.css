@@ -1,0 +1,58 @@
+.launches {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+  gap: 16px;
+  padding: 16px;
+}
+
+mat-card.launch-card {
+  background-color: #002347;
+  color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  transition: transform 0.2s ease;
+  padding: 8px;
+}
+
+mat-card.launch-card:hover {
+  transform: translateY(-5px);
+}
+
+mat-card-title a {
+  color: #d4780f;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+mat-card-title a:hover {
+  text-decoration: underline;
+}
+
+mat-card-subtitle{
+  color: #c3c0c0;
+}
+mat-card-actions a {
+  font-weight: 500;
+}
+
+mat-card-actions a{
+  color:#b29758;
+  font-weight: 600;
+}
+
+.wrapper{
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  padding: 5px;
+  background: linear-gradient(to right, #000333, #000000);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.header{
+  font-size: 2.5rem;
+  font-weight: 800;
+  color: #fff;
+  font-family: 'Segoe UI', sans-serif;
+  text-transform: uppercase; 
+}
