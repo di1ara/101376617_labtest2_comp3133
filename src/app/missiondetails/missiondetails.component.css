@@ -10,7 +10,7 @@
   
   mat-card-title,
   mat-card-subtitle {
-    color: #ffffff;
+    color: #c3c0c0;
   }
   
   mat-card-content p {
@@ -36,7 +36,7 @@
     font-size: 2rem;
     font-weight: bold;
     margin-bottom: 1.5rem;
-    color: #c3c0c0;
+    color: #ffffff;
   }
   
   .back-button {
